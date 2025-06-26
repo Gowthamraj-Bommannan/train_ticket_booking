@@ -1,9 +1,16 @@
 from rest_framework import serializers
 from .models import User, Role
 from .exceptions import EmailAlreadyExists, UsernameAlreadyExists, MobileNumberAlreadyExists, InvalidInput
+from django.core.exceptions import ValidationError as DjangoValidationError
+
 import re
 
 class UserRegistrationSerializer(serializers.ModelSerializer):
+
+    email = serializers.EmailField(validators=[])
+    username = serializers.CharField(validators=[])
+    mobile_number = serializers.CharField(validators=[])
+    
     class Meta:
         model = User
         fields = ['username', 'email', 'mobile_number', 'first_name', 'last_name', 'password']
@@ -14,45 +21,35 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
             'mobile_number': {'required': True},
         }
 
-    def validate_email(self, value):
-        if not value:
-            raise InvalidInput('Email is required.')
-        value = value.lower()
-        if not re.match(r"[^@]+@[^@]+\.[^@]+", value):
-            raise InvalidInput('Invalid email format.')
-        if User.objects.filter(email=value).exists():
-            raise EmailAlreadyExists()
-        return value
-
-    def validate_username(self, value):
-        if not value:
-            raise InvalidInput('Username is required.')
-        value = value.lower()
-        if len(value) < 3:
-            raise InvalidInput('Username must be at least 3 characters long.')
-        if User.objects.filter(username=value).exists():
-            raise UsernameAlreadyExists()
-        return value
+    def validate(self, attrs):
+        mobile = attrs.get('mobile_number')
+        if mobile and len(mobile) != 10:
+            raise InvalidInput('Mobile number must be exactly 10 digits.')
+        try:
+            self.Meta.model(**attrs).full_clean(exclude=['password'])
+        except DjangoValidationError as e:
+            errors = e.message_dict
+            if 'username' in errors:
+                raise UsernameAlreadyExists()
+            if 'email' in errors:
+                raise EmailAlreadyExists()
+            if 'mobile_number' in errors:
+                raise MobileNumberAlreadyExists()
+            raise InvalidInput('Invalid input: {}'.format(errors))
+        return attrs
 
     def validate_mobile_number(self, value):
-        if not value:
-            raise InvalidInput('Mobile number is required.')
         if not re.match(r"^[6-9][0-9]{9}$", value):
             raise InvalidInput('Mobile number must be 10 digits and starts with 6 to 9.')
-        if User.objects.filter(mobile_number=value).exists():
-            raise MobileNumberAlreadyExists()
-        return value
-
-    def validate_first_name(self, value):
-        if not value:
-            raise InvalidInput('First name is required.')
+        if len(value) != 10:
+            raise InvalidInput('Phone number must be 10 digits.')
         return value
 
     def validate_password(self, value):
         if not value or len(value) < 8 or len(value) > 16:
             raise InvalidInput('Password must be 8 to 16 characters long.')
         return value
-
+    
     def create(self, validated_data):
         role = Role.objects.get(name=Role.PASSENGER)
         user = User.objects.create_user(
