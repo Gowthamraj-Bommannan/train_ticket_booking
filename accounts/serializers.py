@@ -2,6 +2,7 @@ from rest_framework import serializers
 from .models import User, Role
 from .exceptions import EmailAlreadyExists, UsernameAlreadyExists, MobileNumberAlreadyExists, InvalidInput
 from django.core.exceptions import ValidationError as DjangoValidationError
+from utils.constants import GeneralMessage, FieldValidationMessage
 
 import re
 
@@ -22,9 +23,7 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
         }
 
     def validate(self, attrs):
-        mobile = attrs.get('mobile_number')
-        if mobile and len(mobile) != 10:
-            raise InvalidInput('Mobile number must be exactly 10 digits.')
+        
         try:
             self.Meta.model(**attrs).full_clean(exclude=['password'])
         except DjangoValidationError as e:
@@ -35,19 +34,16 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
                 raise EmailAlreadyExists()
             if 'mobile_number' in errors:
                 raise MobileNumberAlreadyExists()
-            raise InvalidInput('Invalid input: {}'.format(errors))
+            raise InvalidInput(f'{GeneralMessage.INVALID_INPUT}'.format(errors))
         return attrs
 
     def validate_mobile_number(self, value):
         if not re.match(r"^[6-9][0-9]{9}$", value):
-            raise InvalidInput('Mobile number must be 10 digits and starts with 6 to 9.')
-        if len(value) != 10:
-            raise InvalidInput('Phone number must be 10 digits.')
-        return value
+            raise InvalidInput(FieldValidationMessage.MOBILE_INVALID)
 
     def validate_password(self, value):
         if not value or len(value) < 8 or len(value) > 16:
-            raise InvalidInput('Password must be 8 to 16 characters long.')
+            raise InvalidInput(FieldValidationMessage.PASSWORD_LONG_OR_SHORT)
         return value
     
     def create(self, validated_data):

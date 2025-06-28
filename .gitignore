@@ -1,0 +1,48 @@
+# Python __pycache__ and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django-related
+*.log
+*.pot
+*.pyc
+
+# Env files
+.env
+.env.*
+
+# Virtual environment
+env/
+venv/
+ENV/
+
+# SQLite (if used)
+*.sqlite3
+
+# Media/uploads (optional)
+media/
+uploads/
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Migrations (optional: only if you regenerate them)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Byte-compiled / cache / logs
+*.log
+*.bak
+*.swp
+*.tmp
+
+# System
+.DS_Store
+Thumbs.db

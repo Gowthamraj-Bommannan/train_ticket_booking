@@ -2,6 +2,8 @@ from rest_framework.exceptions import APIException
 from rest_framework import status
 from rest_framework.views import exception_handler
 from rest_framework.response import Response
+from utils.constants import AlreadyExistsMessage, UserMessage
+
 
 def custom_exception_handler(exc, context):
     response = exception_handler(exc, context)
@@ -30,25 +32,24 @@ def custom_exception_handler(exc, context):
 
 class EmailAlreadyExists(APIException):
     status_code = status.HTTP_409_CONFLICT
-    default_detail = 'Email already exists.'
+    default_detail = AlreadyExistsMessage.EMAIL_ALREADY_EXISTS
     default_code = 'email_exists'
 
 class UsernameAlreadyExists(APIException):
     status_code = status.HTTP_409_CONFLICT
-    default_detail = 'Username already exists.'
+    default_detail = AlreadyExistsMessage.USERNAME_ALREADY_EXISTS
     default_code = 'username_exists'
 
 class MobileNumberAlreadyExists(APIException):
     status_code = status.HTTP_409_CONFLICT
-    default_detail = 'Mobile number already exists.'
+    default_detail = AlreadyExistsMessage.MOBILE_ALREADY_EXISTS
     default_code = 'mobile_number_exists'
 
 class InvalidCredentials(APIException):
     status_code = status.HTTP_401_UNAUTHORIZED
-    default_detail = 'Invalid username or password.'
+    default_detail = UserMessage.INVALID_CREDENTIALS
     default_code = 'invalid_credentials'
 
 class InvalidInput(APIException):
     status_code = status.HTTP_400_BAD_REQUEST
-    # default_detail = 'Invalid input.'
     default_code = 'invalid_input'
