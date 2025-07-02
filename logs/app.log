@@ -364,3 +364,705 @@
 [2025-06-28 11:23:52,596] INFO request_logger - Response: 200 at 2025-06-28 11:23:52.596952
 [2025-06-28 11:23:59,573] INFO request_logger - Request: GET /api/admin/trains/1/ at 2025-06-28 11:23:59.573082
 [2025-06-28 11:23:59,691] INFO request_logger - Response: 200 at 2025-06-28 11:23:59.691345
+[2025-06-28 11:48:06,363] INFO request_logger - Request: GET /api/admin/trains/ at 2025-06-28 11:48:06.363770
+[2025-06-28 11:48:06,531] INFO request_logger - Response: 200 at 2025-06-28 11:48:06.531111
+[2025-06-28 12:05:34,013] INFO request_logger - Request: GET /api/admin/trains/1 at 2025-06-28 12:05:34.011568
+[2025-06-28 12:05:34,041] INFO request_logger - Response: 404 at 2025-06-28 12:05:34.041875
+[2025-06-28 12:05:34,052] INFO request_logger - Request: GET /api/admin/trains/1/ at 2025-06-28 12:05:34.052672
+[2025-06-28 12:05:34,056] INFO request_logger - Response: 401 at 2025-06-28 12:05:34.056403
+[2025-06-28 12:05:41,071] INFO request_logger - Request: POST /api/auth/token/refresh/ at 2025-06-28 12:05:41.071933
+[2025-06-28 12:05:41,185] INFO request_logger - Response: 200 at 2025-06-28 12:05:41.185854
+[2025-06-28 12:05:50,900] INFO request_logger - Request: GET /api/admin/trains/1 at 2025-06-28 12:05:50.900323
+[2025-06-28 12:05:50,918] INFO request_logger - Response: 404 at 2025-06-28 12:05:50.918414
+[2025-06-28 12:05:50,934] INFO request_logger - Request: GET /api/admin/trains/1/ at 2025-06-28 12:05:50.934337
+[2025-06-28 12:05:51,089] INFO request_logger - Response: 200 at 2025-06-28 12:05:51.089399
+[2025-06-28 12:06:14,296] INFO request_logger - Request: GET /api/admin/trains/1 at 2025-06-28 12:06:14.296898
+[2025-06-28 12:06:14,312] INFO request_logger - Response: 404 at 2025-06-28 12:06:14.312099
+[2025-06-28 12:06:14,321] INFO request_logger - Request: GET /api/admin/trains/1/ at 2025-06-28 12:06:14.320316
+[2025-06-28 12:06:14,436] INFO request_logger - Response: 200 at 2025-06-28 12:06:14.436238
+[2025-06-28 12:08:27,423] INFO request_logger - Request: POST /api/admin/stations/ at 2025-06-28 12:08:27.423836
+[2025-06-28 12:08:27,425] INFO request_logger - Response: 401 at 2025-06-28 12:08:27.425994
+[2025-06-28 12:08:35,946] INFO request_logger - Request: POST /api/admin/stations/ at 2025-06-28 12:08:35.946284
+[2025-06-28 12:08:36,090] INFO request_logger - Response: 201 at 2025-06-28 12:08:36.090573
+[2025-06-28 12:08:49,712] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 12:08:49.712073
+[2025-06-28 12:08:49,887] INFO request_logger - Response: 500 at 2025-06-28 12:08:49.887386
+[2025-06-28 12:09:07,778] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 12:09:07.778256
+[2025-06-28 12:09:07,900] INFO request_logger - Response: 500 at 2025-06-28 12:09:07.900266
+[2025-06-28 12:11:11,224] INFO request_logger - Request: GET /api/admin/trains/ at 2025-06-28 12:11:11.224073
+[2025-06-28 12:11:11,427] INFO request_logger - Response: 200 at 2025-06-28 12:11:11.427284
+[2025-06-28 12:11:20,232] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 12:11:20.232344
+[2025-06-28 12:11:20,342] INFO request_logger - Response: 500 at 2025-06-28 12:11:20.342692
+[2025-06-28 12:12:00,087] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 12:12:00.087812
+[2025-06-28 12:12:00,216] INFO request_logger - Response: 500 at 2025-06-28 12:12:00.216501
+[2025-06-28 12:14:03,747] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 12:14:03.747141
+[2025-06-28 12:14:04,012] INFO request_logger - Response: 500 at 2025-06-28 12:14:04.012290
+[2025-06-28 12:18:23,066] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 12:18:23.066629
+[2025-06-28 12:18:23,161] INFO request_logger - Response: 500 at 2025-06-28 12:18:23.160331
+[2025-06-28 12:21:39,109] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 12:21:39.109574
+[2025-06-28 12:21:39,208] INFO request_logger - Response: 500 at 2025-06-28 12:21:39.208764
+[2025-06-28 12:22:58,686] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 12:22:58.686891
+[2025-06-28 12:22:59,210] INFO request_logger - Response: 500 at 2025-06-28 12:22:59.209799
+[2025-06-28 12:24:04,124] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 12:24:04.124247
+[2025-06-28 12:24:04,254] INFO request_logger - Response: 500 at 2025-06-28 12:24:04.254064
+[2025-06-28 12:25:27,496] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 12:25:27.496577
+[2025-06-28 12:25:27,826] INFO request_logger - Response: 500 at 2025-06-28 12:25:27.826612
+[2025-06-28 12:28:15,334] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 12:28:15.334826
+[2025-06-28 12:28:15,472] INFO request_logger - Response: 201 at 2025-06-28 12:28:15.472791
+[2025-06-28 12:41:11,715] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 12:41:11.715167
+[2025-06-28 12:41:11,835] INFO request_logger - Response: 500 at 2025-06-28 12:41:11.835154
+[2025-06-28 12:42:13,458] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 12:42:13.458974
+[2025-06-28 12:42:13,586] INFO request_logger - Response: 500 at 2025-06-28 12:42:13.586024
+[2025-06-28 12:43:26,304] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 12:43:26.304931
+[2025-06-28 12:43:26,447] INFO request_logger - Response: 500 at 2025-06-28 12:43:26.447552
+[2025-06-28 12:43:54,226] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 12:43:54.226435
+[2025-06-28 12:43:54,418] INFO request_logger - Response: 201 at 2025-06-28 12:43:54.418680
+[2025-06-28 13:04:09,290] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 13:04:09.290807
+[2025-06-28 13:04:09,511] INFO request_logger - Response: 500 at 2025-06-28 13:04:09.511801
+[2025-06-28 13:07:36,076] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 13:07:36.076441
+[2025-06-28 13:07:36,108] INFO request_logger - Response: 401 at 2025-06-28 13:07:36.106562
+[2025-06-28 13:07:41,662] INFO request_logger - Request: POST /api/auth/token/refresh/ at 2025-06-28 13:07:41.662783
+[2025-06-28 13:07:41,867] INFO request_logger - Response: 200 at 2025-06-28 13:07:41.867716
+[2025-06-28 13:08:04,683] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 13:08:04.682394
+[2025-06-28 13:08:04,684] INFO request_logger - Response: 401 at 2025-06-28 13:08:04.684391
+[2025-06-28 13:08:11,344] INFO request_logger - Request: POST /api/auth/token/refresh/ at 2025-06-28 13:08:11.344067
+[2025-06-28 13:08:11,443] INFO request_logger - Response: 200 at 2025-06-28 13:08:11.443068
+[2025-06-28 13:08:25,906] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 13:08:25.906662
+[2025-06-28 13:08:26,022] INFO request_logger - Response: 409 at 2025-06-28 13:08:26.021410
+[2025-06-28 13:08:59,005] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 13:08:59.005750
+[2025-06-28 13:08:59,153] INFO request_logger - Response: 409 at 2025-06-28 13:08:59.153754
+[2025-06-28 13:10:42,000] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 13:10:42.000716
+[2025-06-28 13:10:42,194] INFO request_logger - Response: 409 at 2025-06-28 13:10:42.194673
+[2025-06-28 13:23:42,005] INFO request_logger - Request: GET /api/admin/trains/by-number/?number=12678 at 2025-06-28 13:23:42.005967
+[2025-06-28 13:23:42,027] INFO request_logger - Response: 401 at 2025-06-28 13:23:42.027253
+[2025-06-28 13:23:47,614] INFO request_logger - Request: POST /api/auth/token/refresh/ at 2025-06-28 13:23:47.614104
+[2025-06-28 13:23:47,714] INFO request_logger - Response: 200 at 2025-06-28 13:23:47.714473
+[2025-06-28 13:24:03,401] INFO request_logger - Request: GET /api/admin/trains/by-number/?number=12678 at 2025-06-28 13:24:03.401558
+[2025-06-28 13:24:03,577] INFO request_logger - Response: 404 at 2025-06-28 13:24:03.577586
+[2025-06-28 13:24:20,337] INFO request_logger - Request: GET /api/admin/trains/by-number/?number=12678 at 2025-06-28 13:24:20.337575
+[2025-06-28 13:24:20,535] INFO request_logger - Response: 500 at 2025-06-28 13:24:20.535583
+[2025-06-28 13:31:36,123] INFO request_logger - Request: GET /api/admin/trains/search/?number=12678 at 2025-06-28 13:31:36.123202
+[2025-06-28 13:31:36,312] INFO request_logger - Response: 200 at 2025-06-28 13:31:36.311197
+[2025-06-28 13:32:31,944] INFO request_logger - Request: GET /api/admin/trains/search/?number=12678 at 2025-06-28 13:32:31.944763
+[2025-06-28 13:32:32,103] INFO request_logger - Response: 404 at 2025-06-28 13:32:32.103583
+[2025-06-28 13:32:37,739] INFO request_logger - Request: GET /api/admin/trains/by-number/?number=12678 at 2025-06-28 13:32:37.739919
+[2025-06-28 13:32:37,931] INFO request_logger - Response: 200 at 2025-06-28 13:32:37.931926
+[2025-06-28 13:37:25,366] INFO request_logger - Request: GET /api/admin/trains/by-number/?number=12678 at 2025-06-28 13:37:25.366787
+[2025-06-28 13:37:25,508] INFO request_logger - Response: 200 at 2025-06-28 13:37:25.508782
+[2025-06-28 13:37:51,215] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 13:37:51.215808
+[2025-06-28 13:37:51,319] INFO request_logger - Response: 400 at 2025-06-28 13:37:51.318817
+[2025-06-28 13:38:34,880] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 13:38:34.880496
+[2025-06-28 13:38:34,990] INFO request_logger - Response: 400 at 2025-06-28 13:38:34.990494
+[2025-06-28 13:42:27,248] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 13:42:27.248043
+[2025-06-28 13:42:27,373] INFO request_logger - Response: 500 at 2025-06-28 13:42:27.373230
+[2025-06-28 13:44:29,500] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 13:44:29.500580
+[2025-06-28 13:44:29,740] INFO request_logger - Response: 500 at 2025-06-28 13:44:29.740117
+[2025-06-28 13:44:57,464] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 13:44:57.464866
+[2025-06-28 13:44:57,568] INFO request_logger - Response: 400 at 2025-06-28 13:44:57.568181
+[2025-06-28 13:46:25,547] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 13:46:25.547895
+[2025-06-28 13:46:25,711] INFO request_logger - Response: 500 at 2025-06-28 13:46:25.711429
+[2025-06-28 13:47:44,996] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 13:47:44.996406
+[2025-06-28 13:47:45,114] INFO request_logger - Response: 500 at 2025-06-28 13:47:45.114703
+[2025-06-28 13:49:19,628] INFO request_logger - Request: GET /api/admin/stations/by-code/?code=MAS at 2025-06-28 13:49:19.628890
+[2025-06-28 13:49:19,630] INFO request_logger - Response: 401 at 2025-06-28 13:49:19.630850
+[2025-06-28 13:49:24,829] INFO request_logger - Request: POST /api/auth/token/refresh/ at 2025-06-28 13:49:24.829220
+[2025-06-28 13:49:24,949] INFO request_logger - Response: 200 at 2025-06-28 13:49:24.949075
+[2025-06-28 13:49:35,001] INFO request_logger - Request: GET /api/admin/stations/by-code/?code=MAS at 2025-06-28 13:49:35.001634
+[2025-06-28 13:49:35,100] INFO request_logger - Response: 200 at 2025-06-28 13:49:35.100404
+[2025-06-28 13:52:22,174] INFO request_logger - Request: GET /api/admin/stations/by-code/?code=MAS at 2025-06-28 13:52:22.174059
+[2025-06-28 13:52:22,371] INFO request_logger - Response: 200 at 2025-06-28 13:52:22.371282
+[2025-06-28 13:52:28,111] INFO request_logger - Request: GET /api/admin/trains/by-number/?number=12678 at 2025-06-28 13:52:28.111100
+[2025-06-28 13:52:28,217] INFO request_logger - Response: 200 at 2025-06-28 13:52:28.217629
+[2025-06-28 13:53:26,920] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 13:53:26.920283
+[2025-06-28 13:53:27,103] INFO request_logger - Response: 500 at 2025-06-28 13:53:27.103283
+[2025-06-28 13:53:34,151] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 13:53:34.151267
+[2025-06-28 13:53:34,256] INFO request_logger - Response: 500 at 2025-06-28 13:53:34.256262
+[2025-06-28 13:54:35,824] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 13:54:35.824470
+[2025-06-28 13:54:35,941] INFO request_logger - Response: 500 at 2025-06-28 13:54:35.941525
+[2025-06-28 13:57:38,979] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 13:57:38.978182
+[2025-06-28 13:57:39,193] INFO request_logger - Response: 400 at 2025-06-28 13:57:39.193183
+[2025-06-28 13:58:04,790] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 13:58:04.790306
+[2025-06-28 13:58:04,934] INFO request_logger - Response: 400 at 2025-06-28 13:58:04.934296
+[2025-06-28 13:58:38,945] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 13:58:38.945631
+[2025-06-28 13:58:39,071] INFO request_logger - Response: 500 at 2025-06-28 13:58:39.071629
+[2025-06-28 14:00:43,461] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 14:00:43.461326
+[2025-06-28 14:00:43,579] INFO request_logger - Response: 500 at 2025-06-28 14:00:43.579211
+[2025-06-28 14:02:20,385] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 14:02:20.385172
+[2025-06-28 14:02:20,509] INFO request_logger - Response: 500 at 2025-06-28 14:02:20.509263
+[2025-06-28 15:19:32,210] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 15:19:32.210733
+[2025-06-28 15:19:32,450] INFO request_logger - Response: 201 at 2025-06-28 15:19:32.450454
+[2025-06-28 15:41:24,980] INFO request_logger - Request: POST /api/admin/stations/ at 2025-06-28 15:41:24.980956
+[2025-06-28 15:41:25,274] INFO request_logger - Response: 400 at 2025-06-28 15:41:25.274639
+[2025-06-28 15:47:30,909] INFO request_logger - Request: POST /api/admin/stations/ at 2025-06-28 15:47:30.909807
+[2025-06-28 15:47:31,162] INFO request_logger - Response: 400 at 2025-06-28 15:47:31.162205
+[2025-06-28 15:48:35,529] INFO request_logger - Request: POST /api/admin/stations/ at 2025-06-28 15:48:35.529499
+[2025-06-28 15:48:35,816] INFO request_logger - Response: 400 at 2025-06-28 15:48:35.816370
+[2025-06-28 15:51:26,607] INFO request_logger - Request: POST /api/admin/stations/ at 2025-06-28 15:51:26.607087
+[2025-06-28 15:51:26,847] INFO request_logger - Response: 400 at 2025-06-28 15:51:26.847085
+[2025-06-28 15:55:48,319] INFO request_logger - Request: POST /api/admin/stations/ at 2025-06-28 15:55:48.319165
+[2025-06-28 15:55:48,566] INFO request_logger - Response: 400 at 2025-06-28 15:55:48.566757
+[2025-06-28 15:57:10,970] INFO request_logger - Request: POST /api/admin/stations/ at 2025-06-28 15:57:10.970874
+[2025-06-28 15:57:11,855] INFO request_logger - Response: 500 at 2025-06-28 15:57:11.855493
+[2025-06-28 15:58:08,389] INFO request_logger - Request: POST /api/admin/stations/ at 2025-06-28 15:58:08.389434
+[2025-06-28 15:58:08,705] INFO request_logger - Response: 400 at 2025-06-28 15:58:08.705450
+[2025-06-28 15:58:47,793] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-28 15:58:47.792825
+[2025-06-28 15:58:48,079] INFO request_logger - Response: 400 at 2025-06-28 15:58:48.079251
+[2025-06-30 10:17:24,914] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-30 10:17:24.913146
+[2025-06-30 10:17:25,229] INFO request_logger - Response: 400 at 2025-06-30 10:17:25.229451
+[2025-06-30 10:32:59,547] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-30 10:32:59.547783
+[2025-06-30 10:32:59,835] INFO request_logger - Response: 400 at 2025-06-30 10:32:59.835586
+[2025-06-30 10:34:24,596] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-30 10:34:24.596735
+[2025-06-30 10:34:25,218] INFO request_logger - Response: 400 at 2025-06-30 10:34:25.218019
+[2025-06-30 10:34:54,769] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-30 10:34:54.769790
+[2025-06-30 10:34:55,012] INFO request_logger - Response: 400 at 2025-06-30 10:34:55.012025
+[2025-06-30 10:38:27,674] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-30 10:38:27.674025
+[2025-06-30 10:38:27,877] INFO request_logger - Response: 409 at 2025-06-30 10:38:27.877814
+[2025-06-30 10:40:14,696] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-30 10:40:14.696252
+[2025-06-30 10:40:15,018] INFO request_logger - Response: 201 at 2025-06-30 10:40:15.018438
+[2025-06-30 10:40:31,997] INFO request_logger - Request: POST /api/admin/trains/ at 2025-06-30 10:40:31.997986
+[2025-06-30 10:40:32,213] INFO request_logger - Response: 409 at 2025-06-30 10:40:32.213733
+[2025-06-30 10:42:03,918] INFO request_logger - Request: POST /api/auth/token/refresh/ at 2025-06-30 10:42:03.918735
+[2025-06-30 10:42:04,108] INFO request_logger - Response: 200 at 2025-06-30 10:42:04.108181
+[2025-06-30 10:42:27,319] INFO request_logger - Request: POST /api/admin/stations/ at 2025-06-30 10:42:27.319938
+[2025-06-30 10:42:27,556] INFO request_logger - Response: 201 at 2025-06-30 10:42:27.556138
+[2025-06-30 10:42:34,257] INFO request_logger - Request: POST /api/admin/stations/ at 2025-06-30 10:42:34.257218
+[2025-06-30 10:42:34,483] INFO request_logger - Response: 400 at 2025-06-30 10:42:34.483743
+[2025-06-30 10:43:23,744] INFO request_logger - Request: POST /api/admin/stations/ at 2025-06-30 10:43:23.744288
+[2025-06-30 10:43:24,006] INFO request_logger - Response: 409 at 2025-06-30 10:43:24.006554
+[2025-06-30 12:51:33,006] INFO request_logger - Request: POST /api/auth/token/refresh/ at 2025-06-30 12:51:33.005765
+[2025-06-30 12:51:33,287] INFO request_logger - Response: 200 at 2025-06-30 12:51:33.286049
+[2025-06-30 12:51:44,611] INFO request_logger - Request: POST /api/admin/stations/ at 2025-06-30 12:51:44.611111
+[2025-06-30 12:51:44,618] INFO request_logger - Response: 401 at 2025-06-30 12:51:44.618105
+[2025-06-30 12:51:50,776] INFO request_logger - Request: POST /api/admin/stations/ at 2025-06-30 12:51:50.776251
+[2025-06-30 12:51:50,977] INFO request_logger - Response: 409 at 2025-06-30 12:51:50.977257
+[2025-06-30 12:55:13,103] INFO request_logger - Request: POST /api/admin/stations/ at 2025-06-30 12:55:13.102418
+[2025-06-30 12:55:13,341] INFO request_logger - Response: 201 at 2025-06-30 12:55:13.341781
+[2025-06-30 12:59:25,446] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-06-30 12:59:25.446828
+[2025-06-30 12:59:25,550] INFO request_logger - Response: 404 at 2025-06-30 12:59:25.550827
+[2025-06-30 13:03:31,359] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-06-30 13:03:31.359961
+[2025-06-30 13:03:31,380] INFO request_logger - Response: 404 at 2025-06-30 13:03:31.380965
+[2025-06-30 13:03:41,395] INFO request_logger - Request: POST /api/admin/train-stations/ at 2025-06-30 13:03:41.395039
+[2025-06-30 13:03:41,407] INFO request_logger - Response: 404 at 2025-06-30 13:03:41.407044
+[2025-06-30 13:04:14,652] INFO request_logger - Request: POST /api/admin/train-stations/ at 2025-06-30 13:04:14.652640
+[2025-06-30 13:04:14,687] INFO request_logger - Response: 404 at 2025-06-30 13:04:14.687756
+[2025-06-30 13:08:25,033] INFO request_logger - Request: POST /api/admin/train-stations/ at 2025-06-30 13:08:25.033980
+[2025-06-30 13:08:25,059] INFO request_logger - Response: 404 at 2025-06-30 13:08:25.059177
+[2025-06-30 13:10:39,079] INFO request_logger - Request: POST /api/admin/train-stations/ at 2025-06-30 13:10:39.079743
+[2025-06-30 13:10:39,119] INFO request_logger - Response: 404 at 2025-06-30 13:10:39.119942
+[2025-06-30 13:10:46,199] INFO request_logger - Request: POST /api/admin/train-stations/create-route at 2025-06-30 13:10:46.199169
+[2025-06-30 13:10:46,210] INFO request_logger - Response: 404 at 2025-06-30 13:10:46.210366
+[2025-06-30 13:11:27,792] INFO request_logger - Request: POST /api/admin/train-station/create-route at 2025-06-30 13:11:27.792853
+[2025-06-30 13:11:27,805] INFO request_logger - Response: 404 at 2025-06-30 13:11:27.805853
+[2025-06-30 13:11:36,635] INFO request_logger - Request: POST /api/admin/train-station/create-route/ at 2025-06-30 13:11:36.635755
+[2025-06-30 13:11:36,910] INFO request_logger - Response: 415 at 2025-06-30 13:11:36.910736
+[2025-06-30 13:11:51,391] INFO request_logger - Request: POST /api/admin/train-station/create-route/ at 2025-06-30 13:11:51.391071
+[2025-06-30 13:11:51,607] INFO request_logger - Response: 500 at 2025-06-30 13:11:51.607074
+[2025-06-30 13:12:07,001] INFO request_logger - Request: POST /api/admin/train-station/create-route/ at 2025-06-30 13:12:07.001107
+[2025-06-30 13:12:07,282] INFO request_logger - Response: 500 at 2025-06-30 13:12:07.281025
+[2025-06-30 13:13:15,947] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-06-30 13:13:15.946497
+[2025-06-30 13:13:16,200] INFO request_logger - Response: 500 at 2025-06-30 13:13:16.200430
+[2025-06-30 13:16:05,026] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-06-30 13:16:05.026933
+[2025-06-30 13:16:05,234] INFO request_logger - Response: 500 at 2025-06-30 13:16:05.234940
+[2025-06-30 14:09:33,521] INFO request_logger - Request: POST /api/auth/token/refresh/ at 2025-06-30 14:09:33.521087
+[2025-06-30 14:09:33,897] INFO request_logger - Response: 200 at 2025-06-30 14:09:33.897456
+[2025-06-30 14:09:49,275] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-06-30 14:09:49.274830
+[2025-06-30 14:09:49,487] INFO request_logger - Response: 500 at 2025-06-30 14:09:49.486828
+[2025-06-30 14:14:38,311] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-06-30 14:14:38.311933
+[2025-06-30 14:14:39,013] INFO request_logger - Response: 500 at 2025-06-30 14:14:39.013654
+[2025-06-30 14:15:14,664] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-06-30 14:15:14.664029
+[2025-06-30 14:15:14,803] INFO request_logger - Response: 500 at 2025-06-30 14:15:14.802483
+[2025-06-30 14:15:39,292] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-06-30 14:15:39.292275
+[2025-06-30 14:15:39,449] INFO request_logger - Response: 500 at 2025-06-30 14:15:39.449127
+[2025-06-30 14:17:53,623] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-06-30 14:17:53.623971
+[2025-06-30 14:17:53,773] INFO request_logger - Response: 400 at 2025-06-30 14:17:53.773332
+[2025-06-30 14:19:06,967] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-06-30 14:19:06.967654
+[2025-06-30 14:19:07,076] INFO request_logger - Response: 500 at 2025-06-30 14:19:07.075930
+[2025-06-30 14:21:35,464] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-06-30 14:21:35.464942
+[2025-06-30 14:21:35,631] INFO request_logger - Response: 200 at 2025-06-30 14:21:35.631959
+[2025-06-30 14:22:26,163] INFO request_logger - Request: GET /api/admin/train-stations/ at 2025-06-30 14:22:26.163187
+[2025-06-30 14:22:26,187] INFO request_logger - Response: 401 at 2025-06-30 14:22:26.187121
+[2025-06-30 14:22:33,535] INFO request_logger - Request: GET /api/admin/train-stations/ at 2025-06-30 14:22:33.535061
+[2025-06-30 14:22:33,638] INFO request_logger - Response: 500 at 2025-06-30 14:22:33.638831
+[2025-06-30 14:44:50,142] INFO request_logger - Request: GET /api/admin/train-stations/ at 2025-06-30 14:44:50.142488
+[2025-06-30 14:44:50,294] INFO request_logger - Response: 200 at 2025-06-30 14:44:50.294046
+[2025-06-30 14:48:17,270] INFO request_logger - Request: GET /api/admin/train-stations/ at 2025-06-30 14:48:17.270504
+[2025-06-30 14:48:17,272] INFO request_logger - Response: 401 at 2025-06-30 14:48:17.272540
+[2025-06-30 14:48:23,468] INFO request_logger - Request: GET /api/admin/train-stations/ at 2025-06-30 14:48:23.468849
+[2025-06-30 14:48:23,617] INFO request_logger - Response: 200 at 2025-06-30 14:48:23.617848
+[2025-06-30 14:49:01,878] INFO request_logger - Request: DELETE /api/admin/trains/1 at 2025-06-30 14:49:01.878801
+[2025-06-30 14:49:01,914] INFO request_logger - Response: 404 at 2025-06-30 14:49:01.914798
+[2025-06-30 14:49:27,908] INFO request_logger - Request: DELETE /api/admin/trains/1/ at 2025-06-30 14:49:27.908452
+[2025-06-30 14:49:28,052] INFO request_logger - Response: 204 at 2025-06-30 14:49:28.052896
+[2025-06-30 15:46:27,503] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 15:46:27.503028
+[2025-06-30 15:46:27,506] INFO request_logger - Response: 401 at 2025-06-30 15:46:27.506029
+[2025-06-30 15:46:32,231] INFO request_logger - Request: POST /api/auth/token/refresh/ at 2025-06-30 15:46:32.231719
+[2025-06-30 15:46:32,350] INFO request_logger - Response: 200 at 2025-06-30 15:46:32.349021
+[2025-06-30 15:46:51,010] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 15:46:51.009351
+[2025-06-30 15:46:51,111] INFO request_logger - Response: 405 at 2025-06-30 15:46:51.111350
+[2025-06-30 15:50:13,447] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 15:50:13.447703
+[2025-06-30 15:50:13,547] INFO request_logger - Response: 405 at 2025-06-30 15:50:13.547700
+[2025-06-30 15:52:20,076] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 15:52:20.076739
+[2025-06-30 15:52:20,172] INFO request_logger - Response: 405 at 2025-06-30 15:52:20.172535
+[2025-06-30 15:52:44,384] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 15:52:44.384597
+[2025-06-30 15:52:44,573] INFO request_logger - Response: 405 at 2025-06-30 15:52:44.573633
+[2025-06-30 15:54:11,367] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 15:54:11.367307
+[2025-06-30 15:54:11,453] INFO request_logger - Response: 405 at 2025-06-30 15:54:11.453854
+[2025-06-30 16:30:02,183] INFO request_logger - Request: POST /api/auth/token/refresh/ at 2025-06-30 16:30:02.183655
+[2025-06-30 16:30:02,391] INFO request_logger - Response: 200 at 2025-06-30 16:30:02.391654
+[2025-06-30 16:30:42,221] INFO request_logger - Request: POST /api/admin/train-stations/%3Cid%3E/update-stop/ at 2025-06-30 16:30:42.221803
+[2025-06-30 16:30:42,303] INFO request_logger - Response: 405 at 2025-06-30 16:30:42.303621
+[2025-06-30 16:30:50,661] INFO request_logger - Request: PATCH /api/admin/train-stations/%3Cid%3E/update-stop/ at 2025-06-30 16:30:50.661163
+[2025-06-30 16:30:50,750] INFO request_logger - Response: 400 at 2025-06-30 16:30:50.749903
+[2025-06-30 16:31:05,445] INFO request_logger - Request: PATCH /api/admin/train-stations/1/update-stop/ at 2025-06-30 16:31:05.445313
+[2025-06-30 16:31:05,639] INFO request_logger - Response: 200 at 2025-06-30 16:31:05.639110
+[2025-06-30 16:31:51,306] INFO request_logger - Request: PATCH /api/admin/train-stations/2/update-stop/ at 2025-06-30 16:31:51.306927
+[2025-06-30 16:31:51,403] INFO request_logger - Response: 200 at 2025-06-30 16:31:51.403930
+[2025-06-30 16:32:07,083] INFO request_logger - Request: PATCH /api/admin/train-stations/3/update-stop/ at 2025-06-30 16:32:07.083097
+[2025-06-30 16:32:07,282] INFO request_logger - Response: 200 at 2025-06-30 16:32:07.282517
+[2025-06-30 16:34:33,072] INFO request_logger - Request: GET /api/admin/train-stations/ at 2025-06-30 16:34:33.072281
+[2025-06-30 16:34:33,076] INFO request_logger - Response: 401 at 2025-06-30 16:34:33.076283
+[2025-06-30 16:34:42,216] INFO request_logger - Request: GET /api/admin/train-stations/ at 2025-06-30 16:34:42.216474
+[2025-06-30 16:34:42,356] INFO request_logger - Response: 200 at 2025-06-30 16:34:42.356467
+[2025-06-30 16:36:02,070] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 16:36:02.070425
+[2025-06-30 16:36:02,159] INFO request_logger - Response: 405 at 2025-06-30 16:36:02.159053
+[2025-06-30 16:36:12,473] INFO request_logger - Request: PATCH /api/admin/train-stations/add-stop/ at 2025-06-30 16:36:12.473195
+[2025-06-30 16:36:12,564] INFO request_logger - Response: 404 at 2025-06-30 16:36:12.563491
+[2025-06-30 16:37:25,434] INFO request_logger - Request: PATCH /api/admin/train-stations/add-stop/ at 2025-06-30 16:37:25.434138
+[2025-06-30 16:37:25,515] INFO request_logger - Response: 404 at 2025-06-30 16:37:25.515134
+[2025-06-30 16:37:48,284] INFO request_logger - Request: PATCH /api/admin/train-stations/add-stop/ at 2025-06-30 16:37:48.284540
+[2025-06-30 16:37:48,363] INFO request_logger - Response: 404 at 2025-06-30 16:37:48.363484
+[2025-06-30 16:37:51,314] INFO request_logger - Request: PATCH /api/admin/train-stations/add-stop/ at 2025-06-30 16:37:51.314120
+[2025-06-30 16:37:51,393] INFO request_logger - Response: 404 at 2025-06-30 16:37:51.393117
+[2025-06-30 16:38:15,707] INFO request_logger - Request: PATCH /api/admin/train-stations/add-stop/ at 2025-06-30 16:38:15.707631
+[2025-06-30 16:38:15,791] INFO request_logger - Response: 404 at 2025-06-30 16:38:15.791329
+[2025-06-30 16:38:30,101] INFO request_logger - Request: PATCH /api/admin/train-stations/add-stop/ at 2025-06-30 16:38:30.101156
+[2025-06-30 16:38:30,179] INFO request_logger - Response: 404 at 2025-06-30 16:38:30.179604
+[2025-06-30 16:39:08,828] INFO request_logger - Request: PATCH /api/admin/train-stations/add-stop/ at 2025-06-30 16:39:08.828545
+[2025-06-30 16:39:08,937] INFO request_logger - Response: 404 at 2025-06-30 16:39:08.937546
+[2025-06-30 16:39:14,983] INFO request_logger - Request: PATCH /api/admin/train-stations/add-stop/ at 2025-06-30 16:39:14.983473
+[2025-06-30 16:39:15,070] INFO request_logger - Response: 404 at 2025-06-30 16:39:15.070791
+[2025-06-30 16:45:05,859] INFO request_logger - Request: PATCH /api/admin/train-stations/add-stop/ at 2025-06-30 16:45:05.859437
+[2025-06-30 16:45:05,957] INFO request_logger - Response: 405 at 2025-06-30 16:45:05.957237
+[2025-06-30 16:45:12,768] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 16:45:12.768862
+[2025-06-30 16:45:12,847] INFO request_logger - Response: 500 at 2025-06-30 16:45:12.846073
+[2025-06-30 16:45:27,177] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 16:45:27.177994
+[2025-06-30 16:45:27,269] INFO request_logger - Response: 500 at 2025-06-30 16:45:27.269198
+[2025-06-30 16:50:56,778] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 16:50:56.778589
+[2025-06-30 16:50:56,873] INFO request_logger - Response: 400 at 2025-06-30 16:50:56.873440
+[2025-06-30 16:51:27,166] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 16:51:27.165710
+[2025-06-30 16:51:27,292] INFO request_logger - Response: 500 at 2025-06-30 16:51:27.292699
+[2025-06-30 16:53:41,234] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 16:53:41.234736
+[2025-06-30 16:53:41,344] INFO request_logger - Response: 400 at 2025-06-30 16:53:41.344737
+[2025-06-30 16:54:10,538] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 16:54:10.538883
+[2025-06-30 16:54:10,724] INFO request_logger - Response: 500 at 2025-06-30 16:54:10.724599
+[2025-06-30 16:54:49,486] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 16:54:49.486975
+[2025-06-30 16:54:49,597] INFO request_logger - Response: 409 at 2025-06-30 16:54:49.597012
+[2025-06-30 16:55:21,569] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 16:55:21.569457
+[2025-06-30 16:55:21,693] INFO request_logger - Response: 409 at 2025-06-30 16:55:21.693460
+[2025-06-30 16:59:30,612] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 16:59:30.612660
+[2025-06-30 16:59:30,764] INFO request_logger - Response: 201 at 2025-06-30 16:59:30.764212
+[2025-06-30 17:02:46,201] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 17:02:46.201936
+[2025-06-30 17:02:46,310] INFO request_logger - Response: 500 at 2025-06-30 17:02:46.310367
+[2025-06-30 17:03:59,873] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 17:03:59.873293
+[2025-06-30 17:04:00,000] INFO request_logger - Response: 201 at 2025-06-30 17:04:00.000843
+[2025-06-30 17:08:44,500] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 17:08:44.500503
+[2025-06-30 17:08:44,599] INFO request_logger - Response: 400 at 2025-06-30 17:08:44.599429
+[2025-06-30 17:10:05,734] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 17:10:05.734805
+[2025-06-30 17:10:05,846] INFO request_logger - Response: 500 at 2025-06-30 17:10:05.846770
+[2025-06-30 17:11:45,544] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 17:11:45.544527
+[2025-06-30 17:11:45,760] INFO request_logger - Response: 500 at 2025-06-30 17:11:45.760504
+[2025-06-30 17:12:26,961] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 17:12:26.961336
+[2025-06-30 17:12:27,148] INFO request_logger - Response: 500 at 2025-06-30 17:12:27.147337
+[2025-06-30 17:14:07,956] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 17:14:07.956348
+[2025-06-30 17:14:08,085] INFO request_logger - Response: 500 at 2025-06-30 17:14:08.085350
+[2025-06-30 17:15:24,155] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 17:15:24.155103
+[2025-06-30 17:15:24,272] INFO request_logger - Response: 500 at 2025-06-30 17:15:24.272286
+[2025-06-30 17:22:58,053] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 17:22:58.053847
+[2025-06-30 17:22:58,250] INFO request_logger - Response: 201 at 2025-06-30 17:22:58.250962
+[2025-06-30 17:24:27,667] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 17:24:27.667884
+[2025-06-30 17:24:27,761] INFO request_logger - Response: 400 at 2025-06-30 17:24:27.761449
+[2025-06-30 17:24:33,887] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 17:24:33.887933
+[2025-06-30 17:24:34,103] INFO request_logger - Response: 400 at 2025-06-30 17:24:34.103301
+[2025-06-30 17:24:51,302] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 17:24:51.302064
+[2025-06-30 17:24:51,414] INFO request_logger - Response: 409 at 2025-06-30 17:24:51.414065
+[2025-06-30 17:29:01,656] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 17:29:01.656167
+[2025-06-30 17:29:01,873] INFO request_logger - Response: 400 at 2025-06-30 17:29:01.873166
+[2025-06-30 17:44:09,815] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 17:44:09.815574
+[2025-06-30 17:44:09,832] INFO request_logger - Response: 401 at 2025-06-30 17:44:09.832577
+[2025-06-30 17:44:15,190] INFO request_logger - Request: POST /api/auth/token/refresh/ at 2025-06-30 17:44:15.190067
+[2025-06-30 17:44:15,283] INFO request_logger - Response: 200 at 2025-06-30 17:44:15.283092
+[2025-06-30 17:44:27,356] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 17:44:27.356342
+[2025-06-30 17:44:27,453] INFO request_logger - Response: 400 at 2025-06-30 17:44:27.453575
+[2025-06-30 17:45:51,184] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-06-30 17:45:51.184550
+[2025-06-30 17:45:51,279] INFO request_logger - Response: 400 at 2025-06-30 17:45:51.279994
+[2025-07-01 12:03:40,704] INFO request_logger - Request: POST /api/auth/login/ at 2025-07-01 12:03:40.704872
+[2025-07-01 12:03:42,155] INFO request_logger - Response: 200 at 2025-07-01 12:03:42.155368
+[2025-07-01 12:11:42,724] INFO request_logger - Request: POST /api/auth/login/ at 2025-07-01 12:11:42.724625
+[2025-07-01 12:11:44,249] INFO request_logger - Response: 200 at 2025-07-01 12:11:44.249487
+[2025-07-01 12:12:54,158] INFO request_logger - Request: POST /api/auth/login/ at 2025-07-01 12:12:54.158991
+[2025-07-01 12:12:54,158] INFO request_logger - Login attempt for user: admin
+[2025-07-01 12:12:54,162] INFO request_logger - Response: 500 at 2025-07-01 12:12:54.162828
+[2025-07-01 12:15:25,262] INFO request_logger - Request: POST /api/auth/login/ at 2025-07-01 12:15:25.262612
+[2025-07-01 12:15:25,263] INFO request_logger - Login attempt for user: admin
+[2025-07-01 12:15:25,264] INFO request_logger - Response: 500 at 2025-07-01 12:15:25.264526
+[2025-07-01 12:26:41,784] INFO request_logger - Request: POST /api/auth/login/ at 2025-07-01 12:26:41.784785
+[2025-07-01 12:26:41,785] INFO request_logger - Login attempt for user: admin
+[2025-07-01 12:26:41,786] INFO request_logger - Response: 500 at 2025-07-01 12:26:41.786785
+[2025-07-01 12:27:53,585] INFO request_logger - Request: POST /api/auth/login/ at 2025-07-01 12:27:53.585894
+[2025-07-01 12:27:53,586] INFO request_logger - Login attempt for user: admin
+[2025-07-01 12:27:53,587] INFO request_logger - Response: 500 at 2025-07-01 12:27:53.587895
+[2025-07-01 12:27:56,619] INFO request_logger - Request: POST /api/auth/login/ at 2025-07-01 12:27:56.619073
+[2025-07-01 12:27:56,619] INFO request_logger - Login attempt for user: admin
+[2025-07-01 12:27:56,620] INFO request_logger - Response: 500 at 2025-07-01 12:27:56.620071
+[2025-07-01 12:50:04,744] INFO request_logger - Request: POST /api/auth/login/ at 2025-07-01 12:50:04.744073
+[2025-07-01 12:50:06,574] INFO request_logger - Response: 200 at 2025-07-01 12:50:06.574046
+[2025-07-01 12:50:18,049] INFO request_logger - Request: POST /api/auth/login/ at 2025-07-01 12:50:18.049375
+[2025-07-01 12:50:19,330] INFO request_logger - Response: 401 at 2025-07-01 12:50:19.330164
+[2025-07-01 12:50:29,372] INFO request_logger - Request: POST /api/auth/login/ at 2025-07-01 12:50:29.372009
+[2025-07-01 12:50:30,620] INFO request_logger - Response: 200 at 2025-07-01 12:50:30.620012
+[2025-07-01 12:51:57,290] INFO request_logger - Request: POST /api/admin/stations/ at 2025-07-01 12:51:57.290053
+[2025-07-01 12:51:57,407] INFO request_logger - Response: 201 at 2025-07-01 12:51:57.406573
+[2025-07-01 12:54:06,359] INFO request_logger - Request: POST /api/auth/register/ at 2025-07-01 12:54:06.359051
+[2025-07-01 12:54:06,499] INFO request_logger - Response: 409 at 2025-07-01 12:54:06.499558
+[2025-07-01 14:57:43,578] INFO request_logger - Request: POST /api/admin/stations/ at 2025-07-01 14:57:43.578017
+[2025-07-01 14:57:43,829] INFO request_logger - Response: 201 at 2025-07-01 14:57:43.829103
+[2025-07-01 14:58:12,850] INFO request_logger - Request: POST /api/admin/stations/ at 2025-07-01 14:58:12.850166
+[2025-07-01 14:58:13,046] INFO request_logger - Response: 201 at 2025-07-01 14:58:13.046812
+[2025-07-01 14:58:30,298] INFO request_logger - Request: POST /api/admin/stations/ at 2025-07-01 14:58:30.298378
+[2025-07-01 14:58:30,448] INFO request_logger - Response: 201 at 2025-07-01 14:58:30.448781
+[2025-07-01 14:58:45,069] INFO request_logger - Request: POST /api/admin/stations/ at 2025-07-01 14:58:45.069056
+[2025-07-01 14:58:45,250] INFO request_logger - Response: 201 at 2025-07-01 14:58:45.250150
+[2025-07-01 14:58:54,910] INFO request_logger - Request: POST /api/admin/stations/ at 2025-07-01 14:58:54.910543
+[2025-07-01 14:58:55,033] INFO request_logger - Response: 201 at 2025-07-01 14:58:55.033935
+[2025-07-01 14:59:07,591] INFO request_logger - Request: GET /api/admin/stations at 2025-07-01 14:59:07.591487
+[2025-07-01 14:59:07,611] INFO request_logger - Response: 404 at 2025-07-01 14:59:07.611732
+[2025-07-01 14:59:07,620] INFO request_logger - Request: GET /api/admin/stations/ at 2025-07-01 14:59:07.620733
+[2025-07-01 14:59:07,773] INFO request_logger - Response: 200 at 2025-07-01 14:59:07.773607
+[2025-07-01 14:59:30,073] INFO request_logger - Request: GET /api/admin/stations/by-name/?name=Salem%20Junction at 2025-07-01 14:59:30.073809
+[2025-07-01 14:59:30,197] INFO request_logger - Response: 200 at 2025-07-01 14:59:30.197959
+[2025-07-01 14:59:36,422] INFO request_logger - Request: GET /api/admin/stations/by-name/?name=Salem-Junction at 2025-07-01 14:59:36.422337
+[2025-07-01 14:59:36,567] INFO request_logger - Response: 404 at 2025-07-01 14:59:36.567493
+[2025-07-01 14:59:41,459] INFO request_logger - Request: GET /api/admin/stations/by-name/?name=Salem-Junction at 2025-07-01 14:59:41.459351
+[2025-07-01 14:59:41,613] INFO request_logger - Response: 404 at 2025-07-01 14:59:41.613981
+[2025-07-01 14:59:44,538] INFO request_logger - Request: GET /api/admin/stations/by-name/?name=SalemJunction at 2025-07-01 14:59:44.538441
+[2025-07-01 14:59:44,661] INFO request_logger - Response: 404 at 2025-07-01 14:59:44.661272
+[2025-07-01 14:59:47,535] INFO request_logger - Request: GET /api/admin/stations/by-name/?name=Salem%20 at 2025-07-01 14:59:47.535042
+[2025-07-01 14:59:47,654] INFO request_logger - Response: 200 at 2025-07-01 14:59:47.654089
+[2025-07-01 15:00:39,741] INFO request_logger - Request: POST /api/admin/stations/ at 2025-07-01 15:00:39.741663
+[2025-07-01 15:00:39,946] INFO request_logger - Response: 201 at 2025-07-01 15:00:39.946543
+[2025-07-01 15:01:00,868] INFO request_logger - Request: GET /api/admin/stations/by-name/?name=Salem at 2025-07-01 15:01:00.868233
+[2025-07-01 15:01:00,988] INFO request_logger - Response: 200 at 2025-07-01 15:01:00.988235
+[2025-07-01 15:01:03,856] INFO request_logger - Request: GET /api/admin/stations/by-name/?name=Salem%20Town at 2025-07-01 15:01:03.856476
+[2025-07-01 15:01:03,972] INFO request_logger - Response: 200 at 2025-07-01 15:01:03.972474
+[2025-07-01 15:02:16,295] INFO request_logger - Request: GET /api/admin/stations/by-name/?name=Salem%20 at 2025-07-01 15:02:16.295034
+[2025-07-01 15:02:16,471] INFO request_logger - Response: 500 at 2025-07-01 15:02:16.471720
+[2025-07-01 15:02:30,706] INFO request_logger - Request: GET /api/admin/stations/by-name/?name=Salem%20 at 2025-07-01 15:02:30.706082
+[2025-07-01 15:02:30,871] INFO request_logger - Response: 500 at 2025-07-01 15:02:30.871078
+[2025-07-01 15:02:45,001] INFO request_logger - Request: GET /api/admin/stations/by-name/?name=Salem%20 at 2025-07-01 15:02:45.001707
+[2025-07-01 15:02:45,170] INFO request_logger - Response: 200 at 2025-07-01 15:02:45.170209
+[2025-07-01 15:03:09,204] INFO request_logger - Request: GET /api/admin/stations/by-code/?code=MAS at 2025-07-01 15:03:09.204590
+[2025-07-01 15:03:09,398] INFO request_logger - Response: 200 at 2025-07-01 15:03:09.398507
+[2025-07-01 15:03:14,435] INFO request_logger - Request: GET /api/admin/stations/by-code/?code=SA at 2025-07-01 15:03:14.435543
+[2025-07-01 15:03:14,569] INFO request_logger - Response: 200 at 2025-07-01 15:03:14.569827
+[2025-07-01 15:03:29,679] INFO request_logger - Request: GET /api/admin/stations/by-code/?code=SA at 2025-07-01 15:03:29.679472
+[2025-07-01 15:03:29,878] INFO request_logger - Response: 500 at 2025-07-01 15:03:29.878766
+[2025-07-01 15:04:39,346] INFO request_logger - Request: POST /api/admin/trains/ at 2025-07-01 15:04:39.346102
+[2025-07-01 15:04:39,364] INFO request_logger - Response: 401 at 2025-07-01 15:04:39.364103
+[2025-07-01 15:04:46,436] INFO request_logger - Request: POST /api/admin/trains/ at 2025-07-01 15:04:46.436628
+[2025-07-01 15:04:46,589] INFO request_logger - Response: 201 at 2025-07-01 15:04:46.589628
+[2025-07-01 15:06:09,260] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 15:06:09.260871
+[2025-07-01 15:06:09,422] INFO request_logger - Response: 400 at 2025-07-01 15:06:09.422232
+[2025-07-01 15:07:23,314] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 15:07:23.314936
+[2025-07-01 15:07:23,492] INFO request_logger - Response: 400 at 2025-07-01 15:07:23.492756
+[2025-07-01 15:08:41,751] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 15:08:41.751524
+[2025-07-01 15:08:41,889] INFO request_logger - Response: 400 at 2025-07-01 15:08:41.889487
+[2025-07-01 15:18:18,770] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 15:18:18.770997
+[2025-07-01 15:18:18,923] INFO request_logger - Response: 400 at 2025-07-01 15:18:18.923467
+[2025-07-01 15:18:36,467] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 15:18:36.467686
+[2025-07-01 15:18:36,597] INFO request_logger - Response: 400 at 2025-07-01 15:18:36.597687
+[2025-07-01 15:18:48,861] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 15:18:48.861842
+[2025-07-01 15:18:49,303] INFO request_logger - Response: 400 at 2025-07-01 15:18:49.303827
+[2025-07-01 15:22:28,945] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 15:22:28.945649
+[2025-07-01 15:22:29,063] INFO request_logger - Response: 400 at 2025-07-01 15:22:29.063519
+[2025-07-01 15:22:53,802] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 15:22:53.802076
+[2025-07-01 15:22:53,919] INFO request_logger - Response: 400 at 2025-07-01 15:22:53.919449
+[2025-07-01 15:24:28,404] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 15:24:28.404754
+[2025-07-01 15:24:28,512] INFO request_logger - Response: 400 at 2025-07-01 15:24:28.512500
+[2025-07-01 15:24:32,682] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 15:24:32.682845
+[2025-07-01 15:24:32,780] INFO request_logger - Response: 400 at 2025-07-01 15:24:32.780865
+[2025-07-01 15:27:35,587] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 15:27:35.587406
+[2025-07-01 15:27:35,770] INFO request_logger - Response: 400 at 2025-07-01 15:27:35.770036
+[2025-07-01 15:28:23,717] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 15:28:23.717154
+[2025-07-01 15:28:23,824] INFO request_logger - Response: 400 at 2025-07-01 15:28:23.824448
+[2025-07-01 15:31:09,870] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 15:31:09.870548
+[2025-07-01 15:31:10,000] INFO request_logger - Response: 200 at 2025-07-01 15:31:10.000499
+[2025-07-01 15:31:28,799] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 15:31:28.799466
+[2025-07-01 15:31:29,038] INFO request_logger - Response: 200 at 2025-07-01 15:31:29.038814
+[2025-07-01 15:31:38,659] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 15:31:38.659365
+[2025-07-01 15:31:38,848] INFO request_logger - Response: 200 at 2025-07-01 15:31:38.848518
+[2025-07-01 15:33:31,437] INFO request_logger - Request: POST /api/admin/stations/ at 2025-07-01 15:33:31.437711
+[2025-07-01 15:33:31,548] INFO request_logger - Response: 201 at 2025-07-01 15:33:31.548710
+[2025-07-01 15:33:50,919] INFO request_logger - Request: GET /api/admin/train-stations/ at 2025-07-01 15:33:50.919007
+[2025-07-01 15:33:50,921] INFO request_logger - Response: 401 at 2025-07-01 15:33:50.921028
+[2025-07-01 15:34:00,123] INFO request_logger - Request: GET /api/admin/train-stations/ at 2025-07-01 15:34:00.123314
+[2025-07-01 15:34:00,242] INFO request_logger - Response: 200 at 2025-07-01 15:34:00.242225
+[2025-07-01 15:39:25,593] INFO request_logger - Request: GET /api/admin/train-stations/ at 2025-07-01 15:39:25.593449
+[2025-07-01 15:39:25,767] INFO request_logger - Response: 200 at 2025-07-01 15:39:25.767449
+[2025-07-01 15:39:40,808] INFO request_logger - Request: PATCH /api/admin/train-stations/2/update-stop/ at 2025-07-01 15:39:40.808632
+[2025-07-01 15:39:40,810] INFO request_logger - Response: 401 at 2025-07-01 15:39:40.810631
+[2025-07-01 15:39:49,538] INFO request_logger - Request: PATCH /api/admin/train-stations/2/update-stop/ at 2025-07-01 15:39:49.538531
+[2025-07-01 15:39:49,649] INFO request_logger - Response: 400 at 2025-07-01 15:39:49.649528
+[2025-07-01 15:40:14,469] INFO request_logger - Request: PATCH /api/admin/train-stations/2/update-stop/ at 2025-07-01 15:40:14.469302
+[2025-07-01 15:40:14,599] INFO request_logger - Response: 400 at 2025-07-01 15:40:14.599298
+[2025-07-01 15:40:22,244] INFO request_logger - Request: PATCH /api/admin/train-stations/2/update-stop/ at 2025-07-01 15:40:22.244383
+[2025-07-01 15:40:22,367] INFO request_logger - Response: 400 at 2025-07-01 15:40:22.367390
+[2025-07-01 15:40:29,606] INFO request_logger - Request: PATCH /api/admin/train-stations/2/update-stop/ at 2025-07-01 15:40:29.606219
+[2025-07-01 15:40:29,735] INFO request_logger - Response: 200 at 2025-07-01 15:40:29.735187
+[2025-07-01 15:40:43,723] INFO request_logger - Request: PATCH /api/admin/train-stations/2/update-stop/ at 2025-07-01 15:40:43.723314
+[2025-07-01 15:40:43,851] INFO request_logger - Response: 200 at 2025-07-01 15:40:43.851313
+[2025-07-01 15:40:55,682] INFO request_logger - Request: PATCH /api/admin/train-stations/3/update-stop/ at 2025-07-01 15:40:55.681324
+[2025-07-01 15:40:55,806] INFO request_logger - Response: 200 at 2025-07-01 15:40:55.806313
+[2025-07-01 15:41:04,170] INFO request_logger - Request: GET /api/admin/train-stations/ at 2025-07-01 15:41:04.170401
+[2025-07-01 15:41:04,282] INFO request_logger - Response: 200 at 2025-07-01 15:41:04.282396
+[2025-07-01 15:41:39,339] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-07-01 15:41:39.339761
+[2025-07-01 15:41:39,340] INFO request_logger - Response: 401 at 2025-07-01 15:41:39.340758
+[2025-07-01 15:41:49,200] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-07-01 15:41:49.200733
+[2025-07-01 15:41:49,283] INFO request_logger - Response: 400 at 2025-07-01 15:41:49.283901
+[2025-07-01 16:22:15,006] INFO request_logger - Request: POST /api/admin/stations/ at 2025-07-01 16:22:15.006043
+[2025-07-01 16:22:15,148] INFO request_logger - Response: 201 at 2025-07-01 16:22:15.148181
+[2025-07-01 16:22:31,741] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 16:22:31.741434
+[2025-07-01 16:22:31,948] INFO request_logger - Response: 500 at 2025-07-01 16:22:31.948009
+[2025-07-01 16:22:35,592] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 16:22:35.592757
+[2025-07-01 16:22:35,698] INFO request_logger - Response: 500 at 2025-07-01 16:22:35.698759
+[2025-07-01 16:22:36,863] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 16:22:36.863024
+[2025-07-01 16:22:36,976] INFO request_logger - Response: 500 at 2025-07-01 16:22:36.976018
+[2025-07-01 16:22:37,993] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 16:22:37.993310
+[2025-07-01 16:22:38,123] INFO request_logger - Response: 500 at 2025-07-01 16:22:38.123276
+[2025-07-01 16:22:50,975] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 16:22:50.975853
+[2025-07-01 16:22:51,092] INFO request_logger - Response: 200 at 2025-07-01 16:22:51.092855
+[2025-07-01 16:23:35,961] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 16:23:35.961869
+[2025-07-01 16:23:36,113] INFO request_logger - Response: 200 at 2025-07-01 16:23:36.113212
+[2025-07-01 16:23:48,315] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 16:23:48.315655
+[2025-07-01 16:23:48,444] INFO request_logger - Response: 200 at 2025-07-01 16:23:48.444653
+[2025-07-01 16:23:58,897] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 16:23:58.897162
+[2025-07-01 16:23:59,028] INFO request_logger - Response: 200 at 2025-07-01 16:23:59.028166
+[2025-07-01 16:28:56,747] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 16:28:56.747554
+[2025-07-01 16:28:56,869] INFO request_logger - Response: 500 at 2025-07-01 16:28:56.869229
+[2025-07-01 16:28:58,246] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 16:28:58.246779
+[2025-07-01 16:28:58,371] INFO request_logger - Response: 500 at 2025-07-01 16:28:58.371955
+[2025-07-01 16:28:59,430] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 16:28:59.430236
+[2025-07-01 16:28:59,681] INFO request_logger - Response: 500 at 2025-07-01 16:28:59.681685
+[2025-07-01 16:29:00,714] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 16:29:00.714513
+[2025-07-01 16:29:00,960] INFO request_logger - Response: 500 at 2025-07-01 16:29:00.960903
+[2025-07-01 16:29:05,892] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 16:29:05.892153
+[2025-07-01 16:29:06,043] INFO request_logger - Response: 200 at 2025-07-01 16:29:06.043338
+[2025-07-01 16:29:26,707] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 16:29:26.707552
+[2025-07-01 16:29:26,844] INFO request_logger - Response: 200 at 2025-07-01 16:29:26.844752
+[2025-07-01 16:37:26,465] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 16:37:26.465143
+[2025-07-01 16:37:26,727] INFO request_logger - Response: 200 at 2025-07-01 16:37:26.727941
+[2025-07-01 16:47:24,717] INFO request_logger - Request: DELETE /api/admin/train-stations/delete-stop/ at 2025-07-01 16:47:24.717928
+[2025-07-01 16:47:24,931] INFO request_logger - Response: 405 at 2025-07-01 16:47:24.931928
+[2025-07-01 16:47:38,629] INFO request_logger - Request: POST /api/admin/train-stations/delete-stop/ at 2025-07-01 16:47:38.629453
+[2025-07-01 16:47:38,776] INFO request_logger - Response: 200 at 2025-07-01 16:47:38.776776
+[2025-07-01 16:48:06,284] INFO request_logger - Request: POST /api/admin/train-stations/delete-stop/ at 2025-07-01 16:48:06.284134
+[2025-07-01 16:48:06,390] INFO request_logger - Response: 404 at 2025-07-01 16:48:06.390054
+[2025-07-01 16:49:24,416] INFO request_logger - Request: POST /api/admin/train-stations/delete-stop/ at 2025-07-01 16:49:24.416042
+[2025-07-01 16:49:24,588] INFO request_logger - Response: 200 at 2025-07-01 16:49:24.588984
+[2025-07-01 16:57:15,069] INFO request_logger - Request: DELETE /api/admin/train-stations/train/34722/delete-all-stops/ at 2025-07-01 16:57:15.069866
+[2025-07-01 16:57:15,101] INFO request_logger - Response: 404 at 2025-07-01 16:57:15.101068
+[2025-07-01 16:57:21,961] INFO request_logger - Request: DELETE /api/admin/train-stations/train/34722/delete-all-stops/ at 2025-07-01 16:57:21.961295
+[2025-07-01 16:57:21,970] INFO request_logger - Response: 404 at 2025-07-01 16:57:21.970515
+[2025-07-01 17:03:24,327] INFO request_logger - Request: DELETE /api/admin/train-stations/train/34722/delete-all-stops/ at 2025-07-01 17:03:24.327920
+[2025-07-01 17:03:24,457] INFO request_logger - Response: 200 at 2025-07-01 17:03:24.457584
+[2025-07-01 17:06:16,566] INFO request_logger - Request: GET /api/admin/train-stations/ at 2025-07-01 17:06:16.566548
+[2025-07-01 17:06:16,695] INFO request_logger - Response: 200 at 2025-07-01 17:06:16.695547
+[2025-07-01 17:10:11,558] INFO request_logger - Request: PATCH /api/admin/train-stations/3/update-stop/ at 2025-07-01 17:10:11.558507
+[2025-07-01 17:10:11,560] INFO request_logger - Response: 401 at 2025-07-01 17:10:11.560496
+[2025-07-01 17:10:26,202] INFO request_logger - Request: PATCH /api/admin/train-stations/3/update-stop/ at 2025-07-01 17:10:26.202552
+[2025-07-01 17:10:26,204] INFO request_logger - Response: 401 at 2025-07-01 17:10:26.204591
+[2025-07-01 17:10:32,653] INFO request_logger - Request: POST /api/auth/token/refresh/ at 2025-07-01 17:10:32.653130
+[2025-07-01 17:10:32,759] INFO request_logger - Response: 200 at 2025-07-01 17:10:32.759208
+[2025-07-01 17:10:43,705] INFO request_logger - Request: PATCH /api/admin/train-stations/3/update-stop/ at 2025-07-01 17:10:43.705643
+[2025-07-01 17:10:43,802] INFO request_logger - Response: 400 at 2025-07-01 17:10:43.802704
+[2025-07-01 17:16:12,125] INFO request_logger - Request: POST /api/admin/stations/ at 2025-07-01 17:16:12.125045
+[2025-07-01 17:16:12,156] INFO request_logger - Response: 401 at 2025-07-01 17:16:12.156046
+[2025-07-01 17:16:21,758] INFO request_logger - Request: POST /api/admin/stations/ at 2025-07-01 17:16:21.758319
+[2025-07-01 17:16:21,874] INFO request_logger - Response: 409 at 2025-07-01 17:16:21.874773
+[2025-07-01 17:16:35,843] INFO request_logger - Request: GET /api/admin/train-stations/ at 2025-07-01 17:16:35.843581
+[2025-07-01 17:16:35,958] INFO request_logger - Response: 200 at 2025-07-01 17:16:35.958797
+[2025-07-01 17:17:44,091] INFO request_logger - Request: GET /api/admin/train-stations/ at 2025-07-01 17:17:44.091001
+[2025-07-01 17:17:44,208] INFO request_logger - Response: 200 at 2025-07-01 17:17:44.208998
+[2025-07-01 17:18:05,835] INFO request_logger - Request: DELETE /api/admin/train-stations/train/34722/station/MAS/delete-stop/ at 2025-07-01 17:18:05.835355
+[2025-07-01 17:18:05,837] INFO request_logger - Response: 401 at 2025-07-01 17:18:05.837358
+[2025-07-01 17:18:12,909] INFO request_logger - Request: DELETE /api/admin/train-stations/train/34722/station/MAS/delete-stop/ at 2025-07-01 17:18:12.909228
+[2025-07-01 17:18:13,018] INFO request_logger - Response: 404 at 2025-07-01 17:18:13.018221
+[2025-07-01 17:21:22,535] INFO request_logger - Request: DELETE /api/admin/train-stations/train/34722/station/MAS/delete-stop/ at 2025-07-01 17:21:22.535887
+[2025-07-01 17:21:22,665] INFO request_logger - Response: 404 at 2025-07-01 17:21:22.665055
+[2025-07-01 17:23:21,431] INFO request_logger - Request: POST /api/admin/stations/ at 2025-07-01 17:23:21.431933
+[2025-07-01 17:23:21,642] INFO request_logger - Response: 409 at 2025-07-01 17:23:21.642446
+[2025-07-01 17:26:45,908] INFO request_logger - Request: POST /api/admin/stations/ at 2025-07-01 17:26:45.908780
+[2025-07-01 17:26:46,087] INFO request_logger - Response: 201 at 2025-07-01 17:26:46.087773
+[2025-07-01 17:27:11,369] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:27:11.369825
+[2025-07-01 17:27:11,371] INFO request_logger - Response: 401 at 2025-07-01 17:27:11.371830
+[2025-07-01 17:27:17,966] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:27:17.966027
+[2025-07-01 17:27:18,139] INFO request_logger - Response: 200 at 2025-07-01 17:27:18.139186
+[2025-07-01 17:27:55,035] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:27:55.035232
+[2025-07-01 17:27:55,149] INFO request_logger - Response: 500 at 2025-07-01 17:27:55.149230
+[2025-07-01 17:28:10,222] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:28:10.222700
+[2025-07-01 17:28:10,345] INFO request_logger - Response: 200 at 2025-07-01 17:28:10.345698
+[2025-07-01 17:28:37,530] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:28:37.530068
+[2025-07-01 17:28:37,639] INFO request_logger - Response: 500 at 2025-07-01 17:28:37.639293
+[2025-07-01 17:32:25,885] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:32:25.885839
+[2025-07-01 17:32:26,010] INFO request_logger - Response: 500 at 2025-07-01 17:32:26.010873
+[2025-07-01 17:32:39,613] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:32:39.613373
+[2025-07-01 17:32:39,769] INFO request_logger - Response: 500 at 2025-07-01 17:32:39.769496
+[2025-07-01 17:32:44,995] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:32:44.994621
+[2025-07-01 17:32:45,220] INFO request_logger - Response: 200 at 2025-07-01 17:32:45.219468
+[2025-07-01 17:39:47,326] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:39:47.326447
+[2025-07-01 17:39:47,470] INFO request_logger - Response: 500 at 2025-07-01 17:39:47.470792
+[2025-07-01 17:39:50,450] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:39:50.450768
+[2025-07-01 17:39:50,561] INFO request_logger - Response: 500 at 2025-07-01 17:39:50.561271
+[2025-07-01 17:39:57,347] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:39:57.347105
+[2025-07-01 17:39:57,501] INFO request_logger - Response: 200 at 2025-07-01 17:39:57.501450
+[2025-07-01 17:40:56,570] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-07-01 17:40:56.570577
+[2025-07-01 17:40:56,664] INFO request_logger - Response: 400 at 2025-07-01 17:40:56.664088
+[2025-07-01 17:41:26,751] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-07-01 17:41:26.750560
+[2025-07-01 17:41:26,867] INFO request_logger - Response: 400 at 2025-07-01 17:41:26.867343
+[2025-07-01 17:45:33,934] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:45:33.934879
+[2025-07-01 17:45:34,116] INFO request_logger - Response: 500 at 2025-07-01 17:45:34.116725
+[2025-07-01 17:45:51,738] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:45:51.738401
+[2025-07-01 17:45:51,852] INFO request_logger - Response: 500 at 2025-07-01 17:45:51.852613
+[2025-07-01 17:45:56,539] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:45:56.539017
+[2025-07-01 17:45:56,628] INFO request_logger - Response: 500 at 2025-07-01 17:45:56.628626
+[2025-07-01 17:46:01,703] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:46:01.703261
+[2025-07-01 17:46:01,811] INFO request_logger - Response: 500 at 2025-07-01 17:46:01.811709
+[2025-07-01 17:46:44,726] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:46:44.726213
+[2025-07-01 17:46:44,830] INFO request_logger - Response: 500 at 2025-07-01 17:46:44.830435
+[2025-07-01 17:46:48,094] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:46:48.094465
+[2025-07-01 17:46:48,206] INFO request_logger - Response: 500 at 2025-07-01 17:46:48.206779
+[2025-07-01 17:46:51,207] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:46:51.206364
+[2025-07-01 17:46:51,432] INFO request_logger - Response: 200 at 2025-07-01 17:46:51.432318
+[2025-07-01 17:47:57,006] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:47:57.006511
+[2025-07-01 17:47:57,200] INFO request_logger - Response: 500 at 2025-07-01 17:47:57.200478
+[2025-07-01 17:48:01,144] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:48:01.144568
+[2025-07-01 17:48:01,274] INFO request_logger - Response: 500 at 2025-07-01 17:48:01.274564
+[2025-07-01 17:50:28,134] INFO request_logger - Request: POST /api/auth/token/refresh/ at 2025-07-01 17:50:28.134396
+[2025-07-01 17:50:28,336] INFO request_logger - Response: 200 at 2025-07-01 17:50:28.336106
+[2025-07-01 17:51:00,024] INFO request_logger - Request: POST /api/admin/trains/ at 2025-07-01 17:51:00.024737
+[2025-07-01 17:51:00,237] INFO request_logger - Response: 201 at 2025-07-01 17:51:00.237331
+[2025-07-01 17:55:32,030] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:55:32.030541
+[2025-07-01 17:55:32,078] INFO request_logger - Response: 401 at 2025-07-01 17:55:32.078543
+[2025-07-01 17:55:42,561] INFO request_logger - Request: POST /api/auth/token/refresh/ at 2025-07-01 17:55:42.561046
+[2025-07-01 17:55:42,778] INFO request_logger - Response: 200 at 2025-07-01 17:55:42.778039
+[2025-07-01 17:55:57,170] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:55:57.170459
+[2025-07-01 17:55:57,289] INFO request_logger - Response: 200 at 2025-07-01 17:55:57.289415
+[2025-07-01 17:56:14,578] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:56:14.578523
+[2025-07-01 17:56:14,723] INFO request_logger - Response: 200 at 2025-07-01 17:56:14.723528
+[2025-07-01 17:59:40,790] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:59:40.790504
+[2025-07-01 17:59:40,930] INFO request_logger - Response: 200 at 2025-07-01 17:59:40.930479
+[2025-07-01 17:59:42,896] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 17:59:42.896864
+[2025-07-01 17:59:43,025] INFO request_logger - Response: 200 at 2025-07-01 17:59:43.025356
+[2025-07-01 18:00:22,912] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:00:22.911354
+[2025-07-01 18:00:23,048] INFO request_logger - Response: 200 at 2025-07-01 18:00:23.047371
+[2025-07-01 18:01:09,165] INFO request_logger - Request: GET /api/admin/train-stations/ at 2025-07-01 18:01:09.165560
+[2025-07-01 18:01:09,319] INFO request_logger - Response: 200 at 2025-07-01 18:01:09.319759
+[2025-07-01 18:01:51,393] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:01:51.393011
+[2025-07-01 18:01:51,533] INFO request_logger - Response: 200 at 2025-07-01 18:01:51.533654
+[2025-07-01 18:02:26,611] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:02:26.611435
+[2025-07-01 18:02:26,754] INFO request_logger - Response: 200 at 2025-07-01 18:02:26.754982
+[2025-07-01 18:02:36,983] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:02:36.983942
+[2025-07-01 18:02:37,220] INFO request_logger - Response: 200 at 2025-07-01 18:02:37.220648
+[2025-07-01 18:03:20,335] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:03:20.335672
+[2025-07-01 18:03:20,484] INFO request_logger - Response: 200 at 2025-07-01 18:03:20.483991
+[2025-07-01 18:30:17,311] INFO request_logger - Request: POST /api/auth/token/refresh/ at 2025-07-01 18:30:17.311286
+[2025-07-01 18:30:17,489] INFO request_logger - Response: 200 at 2025-07-01 18:30:17.489604
+[2025-07-01 18:30:58,336] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:30:58.336904
+[2025-07-01 18:30:58,500] INFO request_logger - Response: 200 at 2025-07-01 18:30:58.500914
+[2025-07-01 18:33:25,763] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:33:25.763400
+[2025-07-01 18:33:26,259] INFO request_logger - Response: 200 at 2025-07-01 18:33:26.259396
+[2025-07-01 18:33:28,625] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:33:28.625077
+[2025-07-01 18:33:28,767] INFO request_logger - Response: 200 at 2025-07-01 18:33:28.767082
+[2025-07-01 18:33:30,589] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:33:30.589646
+[2025-07-01 18:33:30,719] INFO request_logger - Response: 200 at 2025-07-01 18:33:30.719653
+[2025-07-01 18:35:34,044] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:35:34.044865
+[2025-07-01 18:35:34,141] INFO request_logger - Response: 500 at 2025-07-01 18:35:34.141851
+[2025-07-01 18:35:36,741] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:35:36.741194
+[2025-07-01 18:35:36,889] INFO request_logger - Response: 200 at 2025-07-01 18:35:36.889469
+[2025-07-01 18:36:07,503] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:36:07.503218
+[2025-07-01 18:36:07,642] INFO request_logger - Response: 200 at 2025-07-01 18:36:07.642680
+[2025-07-01 18:36:10,196] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:36:10.196474
+[2025-07-01 18:36:10,344] INFO request_logger - Response: 200 at 2025-07-01 18:36:10.344566
+[2025-07-01 18:36:11,764] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:36:11.764240
+[2025-07-01 18:36:11,938] INFO request_logger - Response: 200 at 2025-07-01 18:36:11.938607
+[2025-07-01 18:36:13,172] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:36:13.172094
+[2025-07-01 18:36:13,319] INFO request_logger - Response: 200 at 2025-07-01 18:36:13.319673
+[2025-07-01 18:39:51,049] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:39:51.049960
+[2025-07-01 18:39:51,209] INFO request_logger - Response: 200 at 2025-07-01 18:39:51.209796
+[2025-07-01 18:46:39,553] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:46:39.553952
+[2025-07-01 18:46:39,677] INFO request_logger - Response: 400 at 2025-07-01 18:46:39.677349
+[2025-07-01 18:46:59,423] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:46:59.423049
+[2025-07-01 18:46:59,650] INFO request_logger - Response: 400 at 2025-07-01 18:46:59.650466
+[2025-07-01 18:47:03,071] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:47:03.071510
+[2025-07-01 18:47:03,188] INFO request_logger - Response: 400 at 2025-07-01 18:47:03.188100
+[2025-07-01 18:49:23,446] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:49:23.446760
+[2025-07-01 18:49:23,559] INFO request_logger - Response: 400 at 2025-07-01 18:49:23.559362
+[2025-07-01 18:49:28,503] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:49:28.503793
+[2025-07-01 18:49:28,656] INFO request_logger - Response: 200 at 2025-07-01 18:49:28.656054
+[2025-07-01 18:50:01,800] INFO request_logger - Request: DELETE /api/admin/train-stations/train/34722/delete-all-stops/ at 2025-07-01 18:50:01.800852
+[2025-07-01 18:50:01,802] INFO request_logger - Response: 401 at 2025-07-01 18:50:01.802852
+[2025-07-01 18:50:41,989] INFO request_logger - Request: DELETE /api/admin/train-stations/train/34722/delete-all-stops/ at 2025-07-01 18:50:41.989773
+[2025-07-01 18:50:42,216] INFO request_logger - Response: 200 at 2025-07-01 18:50:42.216371
+[2025-07-01 18:51:00,451] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:51:00.451697
+[2025-07-01 18:51:00,847] INFO request_logger - Response: 200 at 2025-07-01 18:51:00.847123
+[2025-07-01 18:51:17,116] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-01 18:51:17.116377
+[2025-07-01 18:51:17,248] INFO request_logger - Response: 200 at 2025-07-01 18:51:17.248442
+[2025-07-01 18:51:58,989] INFO request_logger - Request: DELETE /api/admin/train-stations/train/34722/station/CBE/delete-stop/ at 2025-07-01 18:51:58.989847
+[2025-07-01 18:51:59,127] INFO request_logger - Response: 200 at 2025-07-01 18:51:59.127107
+[2025-07-02 10:01:13,973] INFO request_logger - Request: POST /api/auth/login/ at 2025-07-02 10:01:13.973097
+[2025-07-02 10:01:18,476] INFO request_logger - User logged in successfully: admin
+[2025-07-02 10:01:18,478] INFO request_logger - Response: 200 at 2025-07-02 10:01:18.478842
+[2025-07-02 10:01:54,094] INFO request_logger - Request: POST /api/auth/login/ at 2025-07-02 10:01:54.094039
+[2025-07-02 10:01:56,363] INFO request_logger - User logged in successfully: admin
+[2025-07-02 10:01:56,364] INFO request_logger - Response: 200 at 2025-07-02 10:01:56.364514
+[2025-07-02 10:02:36,496] INFO request_logger - Request: POST /api/auth/login/ at 2025-07-02 10:02:36.496824
+[2025-07-02 10:02:39,597] INFO request_logger - User logged in successfully: admin
+[2025-07-02 10:02:39,597] INFO request_logger - Response: 200 at 2025-07-02 10:02:39.597654
+[2025-07-02 10:07:30,248] INFO request_logger - Request: POST /api/accounts/register/ at 2025-07-02 10:07:30.248479
+[2025-07-02 10:07:30,273] INFO request_logger - Response: 404 at 2025-07-02 10:07:30.273592
+[2025-07-02 10:08:30,157] INFO request_logger - Request: POST /api/auth/register/ at 2025-07-02 10:08:30.156691
+[2025-07-02 10:08:31,803] INFO request_logger - User registered successfully.username : {user.username}
+[2025-07-02 10:08:31,804] INFO request_logger - Response: 201 at 2025-07-02 10:08:31.804435
+[2025-07-02 10:57:43,380] INFO request_logger - Request: POST /api/auth/login/ at 2025-07-02 10:57:43.380603
+[2025-07-02 10:57:45,619] INFO request_logger - User logged in successfully: admin
+[2025-07-02 10:57:45,620] INFO request_logger - Response: 200 at 2025-07-02 10:57:45.620012
+[2025-07-02 11:11:04,091] INFO request_logger - Request: GET /api/admin/stations/by-name/?name=Salem at 2025-07-02 11:11:04.091884
+[2025-07-02 11:11:04,475] INFO request_logger - Response: 200 at 2025-07-02 11:11:04.475273
+[2025-07-02 11:27:49,504] INFO request_logger - Request: GET /api/admin/stations/by-name/?name=Salem at 2025-07-02 11:27:49.504743
+[2025-07-02 11:27:49,670] INFO request_logger - Response: 200 at 2025-07-02 11:27:49.670859
+[2025-07-02 11:29:27,599] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-02 11:29:27.599590
+[2025-07-02 11:29:27,784] INFO request_logger - Response: 200 at 2025-07-02 11:29:27.784294
+[2025-07-02 11:29:45,083] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-02 11:29:45.083168
+[2025-07-02 11:29:45,241] INFO request_logger - Response: 400 at 2025-07-02 11:29:45.241193
+[2025-07-02 11:29:51,912] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-02 11:29:51.912192
+[2025-07-02 11:29:52,063] INFO request_logger - Response: 400 at 2025-07-02 11:29:52.063129
+[2025-07-02 11:35:02,397] INFO request_logger - Request: POST /api/admin/train-stations/create-route/ at 2025-07-02 11:35:02.397323
+[2025-07-02 11:35:02,517] INFO request_logger - Response: 405 at 2025-07-02 11:35:02.517592
+[2025-07-02 11:35:13,550] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-07-02 11:35:13.550748
+[2025-07-02 11:35:13,697] INFO request_logger - Response: 400 at 2025-07-02 11:35:13.697217
+[2025-07-02 11:35:23,732] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-07-02 11:35:23.732912
+[2025-07-02 11:35:23,911] INFO request_logger - Response: 200 at 2025-07-02 11:35:23.911157
+[2025-07-02 11:41:21,967] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-07-02 11:41:21.967293
+[2025-07-02 11:41:22,142] INFO request_logger - Response: 200 at 2025-07-02 11:41:22.142656
+[2025-07-02 11:59:09,976] INFO request_logger - Request: DELETE /api/admin/train-stations/train/34722/delete-all-stops/ at 2025-07-02 11:59:09.976319
+[2025-07-02 11:59:10,034] INFO request_logger - Response: 401 at 2025-07-02 11:59:10.034181
+[2025-07-02 11:59:15,126] INFO request_logger - Request: POST /api/auth/token/refresh/ at 2025-07-02 11:59:15.126073
+[2025-07-02 11:59:15,130] INFO request_logger - Response: 401 at 2025-07-02 11:59:15.130965
+[2025-07-02 11:59:34,327] INFO request_logger - Request: POST /api/auth/token/refresh/ at 2025-07-02 11:59:34.327908
+[2025-07-02 11:59:34,431] INFO request_logger - Response: 200 at 2025-07-02 11:59:34.431746
+[2025-07-02 11:59:55,682] INFO request_logger - Request: DELETE /api/admin/train-stations/train/34722/delete-all-stops/ at 2025-07-02 11:59:55.682934
+[2025-07-02 11:59:55,857] INFO request_logger - Response: 200 at 2025-07-02 11:59:55.857468
+[2025-07-02 12:01:45,761] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-07-02 12:01:45.761037
+[2025-07-02 12:01:45,786] INFO request_logger - Response: 401 at 2025-07-02 12:01:45.786801
+[2025-07-02 12:01:51,937] INFO request_logger - Request: POST /api/admin/train-stations/add-stop/ at 2025-07-02 12:01:51.937131
+[2025-07-02 12:01:52,079] INFO request_logger - Response: 200 at 2025-07-02 12:01:52.079047
+[2025-07-02 12:02:03,811] INFO request_logger - Request: DELETE /api/admin/train-stations/train/34722/delete-all-stops/ at 2025-07-02 12:02:03.811902
+[2025-07-02 12:02:04,002] INFO request_logger - Response: 200 at 2025-07-02 12:02:04.002934

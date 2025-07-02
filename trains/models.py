@@ -1,4 +1,5 @@
 from django.db import models
+import random
 
 class Station(models.Model):
     """
@@ -45,8 +46,8 @@ class Train(models.Model):
 
     number = models.CharField(max_length=10, unique=True)
     name = models.CharField(max_length=100, unique=True)
-    from_station = models.OneToOneField(Station, on_delete=models.CASCADE, related_name='departing_trains')
-    to_station = models.OneToOneField(Station, on_delete=models.CASCADE, related_name='arriving_trains')
+    from_station = models.ForeignKey(Station, on_delete=models.CASCADE, related_name='departing_trains')
+    to_station = models.ForeignKey(Station, on_delete=models.CASCADE, related_name='arriving_trains')
     compartments = models.PositiveIntegerField(default=5)
     seats_per_compartment = models.PositiveBigIntegerField(default=5)
     is_active = models.BooleanField(default=True)
@@ -61,6 +62,17 @@ class Train(models.Model):
         db_table = 'train'
         verbose_name = 'Train'
         verbose_name_plural = 'Trains'
+    
+    def generate_train_number(self):
+        while True:
+            number = f"{random.randint(10000, 99999)}"
+            if not Train.objects.filter(number=number).exists():
+                return number
+            
+    def save(self, *args, **kwargs):
+        if not self.number:
+            self.number = self.generate_train_number()
+        super().save(*args, **kwargs)
 
     def __str__(self):
         return f"{self.number} - {self.name}"
@@ -71,18 +83,17 @@ class TrainStation(models.Model):
     station = models.ForeignKey(Station, on_delete=models.CASCADE)
     arrival_time = models.TimeField()
     departure_time = models.TimeField()
-    number_of_stops = models.PositiveIntegerField()
+    stop_number = models.PositiveIntegerField()
     is_active = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now=True)
     updated_at = models.DateTimeField(auto_now=True)
 
     class Meta:
-        unique_together = ('train', 'station')
-        ordering = ['number_of_stops']
+        ordering = ['stop_number']
         db_table = 'train_station'
         verbose_name = 'Train Station'
         verbose_name_plural = 'Train Stations'
 
     def __str__(self):
-        return f"{self.train.number} - {self.station.code} - {self.number_of_stops}"
+        return f"{self.train.number} - {self.station.code} - {self.stop_number}"
     

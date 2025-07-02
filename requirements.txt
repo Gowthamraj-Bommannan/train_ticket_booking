@@ -1,0 +1,7 @@
+django
+djangorestframework
+djangorestframework-simplejwt
+psycopg2
+pytz
+PyJWT
+python-decouple
